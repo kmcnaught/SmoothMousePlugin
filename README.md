@@ -18,7 +18,7 @@ The project depends on:
 `git clone https://github.com/kmcnaught/SmoothMousePlugin.git`
 - Open `SmoothMouse.sln` in Visual Studio
 - Build for x64
-- 
+
 ## Testing the resulting plugin locally
 
 Put the entirety of the `Release` folder into `%APPDATA%\Optikey\OptiKey\EyeTrackerPlugins`. You can name the folder anything you want. 
