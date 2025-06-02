@@ -31,5 +31,6 @@ Now in Optikey's Management console, the plugin will appear in the list of point
 - Replace the implementation with your own eye tracker integration
 - After compiling your code, zip up the contents of your `Release` folder to use as a release asset
 - Create a release on github, with your zipped folder as an asset
-- Add the topic `optikey-plugin` to your repo and your plugin will now be discovered by Optikey's Plugin Search Wizard. 
+- Add the topic `optikey-plugin` to your repo and your plugin will now be discovered by Optikey's Plugin Search Wizard.
+- ⚠️The Optikey Plugin Wizard uses the Github API, without authentication. This means there is a limited daily quota which we use strategically to ensure new plugins are picked up ASAP. However, if you are repeatedly polling for testing purposes, and making lots of changes, you will hit this quota. You will see this in Optikey's logs and you will need to either test from another machine, or wait until the next day. 
 
